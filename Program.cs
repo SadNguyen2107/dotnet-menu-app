@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Menu.Choice choice = Menu.Choice.AllChoices;
+            Choice choice = Choice.AllChoices;
             do
             {
                 // Print Menu
@@ -15,7 +15,7 @@
 
                 // Handle Choice Input
                 Menu.HandleChoice(choice);
-            } while (choice != Menu.Choice.Exit);
+            } while (choice != Choice.Exit);
         }
     }
 }
