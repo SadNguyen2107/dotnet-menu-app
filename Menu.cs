@@ -2,16 +2,17 @@ using System.Reflection.Metadata;
 
 namespace Program
 {
-    public enum Choice
-    {
-        Exit,
-        DrawTriangle,
-        DrawSquare,
-        DrawRectangle,
-        AllChoices
-    }
+    
     public class Menu
     {
+        public enum Choice
+        {
+            Exit,
+            DrawTriangle,
+            DrawSquare,
+            DrawRectangle,
+            AllChoices
+        }
         public static void DrawTriangle()
         {
             Console.WriteLine("Draw the triangle");
